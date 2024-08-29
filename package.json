@@ -15,5 +15,8 @@
     "vite-plugin-vuetify": "^2.0.4",
     "vue": "latest",
     "vuetify": "^3.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
