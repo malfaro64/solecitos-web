@@ -52,7 +52,7 @@
                 headline="Pero que ha pasao'h 😅"
                 title="Se vienen cositas"
                 text="Estamos trabajando para usted 🐕"
-                image="/images/logo.jpg"
+                :image="logo"
                 ></v-empty-state>
             </v-sheet>
           </v-col>
@@ -82,6 +82,7 @@
 </script>
 
 <script>
+import logo from '@/assets/images/logo.jpg'
   export default {
     data: () => ({
       links: [
