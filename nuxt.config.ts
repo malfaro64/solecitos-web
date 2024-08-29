@@ -15,7 +15,6 @@ export default defineNuxtConfig({
       vuetify()
     ]
   },
-  ssr: false, // Indica que queremos generar un sitio estático
   app: {
     baseURL: '/solecitos-web/', // Configurar la base URL para GitHub Pages
   },
